@@ -3,15 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>GMDB</title>
+        <link rel="stylesheet" href="./styles/styles.css">
     </head>
     <body>
         <header>
             <h1>GMDB</h1>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Login</a>
-                <input type="text" placeholder="Search">
-                <button type="button">Search</button>
+                <nav>
+                    <button type="button" onclick="window.location='home.html'">Home</button>
+                    <button type="button" onclick="window.location='results.html'">Login</button>
+                    <input type="text" placeholder="Search">
+                    <button id="search-button" type="button">Search</button>
+                </nav>
             </nav>
         </header>
         <main>

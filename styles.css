@@ -1,0 +1,22 @@
+header {
+    background-color: black;
+    color: white; 
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+#search-button {
+    color: darkgoldenrod;
+    background-color: black;
+    border-color: darkgoldenrod;
+}
+
+.form-button {
+    color: white;
+    background-color: blue;
+    border-radius: 2px;
+}
