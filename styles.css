@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-weight: 100;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: #343A40;
+    color: white; 
+}
+
+#header-title {
+    margin-right: 1vw;
+}
+
+button {
+    background-color: #343A40;
+    color: white;
+    font-size: 1.5vh;
+    padding: .75vh;
+    border: 0;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 4px;
+}
+
+#search-button {
+    color: #fec02f; 
+    border: 1px solid #fec02f;
+}
+
+#subhead-button {
+    color: #fec02f;
+    background-color: #6D757D;
+    
+}
+
+.form-button {
+    color: white;
+    background-color: #157FFB;
+    padding: 1.1vh;
+}
+
+.login-label {
+    margin-bottom: 1vh;
+}
+
+#back-results {
+    color: #fec02f;
+    background-color: #6D757D;
+    margin-top: 1vh;
+    border-radius: 3px;
+    padding: 1vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-left-div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    justify-content: center;
+}
+
+#header-right-div {
+    padding-right: 2vw;
+    margin-top: 2vh;
+}
+
+input {
+    border-radius: 5px;
+    padding: 1vh;
+    font-size: 1.5vh;
+    border: 1px solid gray;
+}
+
+#login-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#login-head {
+    display: flex;
+    align-self: center;
+}
+
+#login-form {
+    width: 40vw;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+#login-button {
+    align-self: flex-start;
+}
+
+.movie {
+    width: 22vw;
+    padding: 1vw;
+}
+
+.movie-section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 3vh;
+}
+
+#summary {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#current-movie {
+    width: 25vw;
+    margin-top: 1.5vh;
+}
+
+#movie-description {
+    width: 70vw;
+    padding-left: 1.5vw;
+}
+
+#comment-form {
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+#comment {
+    margin-bottom: 2vh;
+}
